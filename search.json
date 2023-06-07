@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "quarto-article.html",
+    "href": "quarto-article.html",
+    "title": "Quarto Article Template",
+    "section": "",
+    "text": "Edit the name of the R Project and .Rproj file\nEdit the article title and file name.\nEdit the URL for website analytics in plausible.html\n\n\n\n\n\nEdit the copyright\nEdit the license"
+  },
+  {
+    "objectID": "quarto-article.html#edits",
+    "href": "quarto-article.html#edits",
+    "title": "Quarto Article Template",
+    "section": "",
+    "text": "Edit the name of the R Project and .Rproj file\nEdit the article title and file name.\nEdit the URL for website analytics in plausible.html\n\n\n\n\n\nEdit the copyright\nEdit the license"
+  },
+  {
+    "objectID": "quarto-article.html#publish-to-github-pages",
+    "href": "quarto-article.html#publish-to-github-pages",
+    "title": "Quarto Article Template",
+    "section": "Publish to GitHub Pages",
+    "text": "Publish to GitHub Pages\nFor details, see this chapter in the Quarto documentation.\n\nrm -r docs\n\n\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "quarto-article.html#website-analytics",
+    "href": "quarto-article.html#website-analytics",
+    "title": "Quarto Article Template",
+    "section": "Website Analytics",
+    "text": "Website Analytics\nThis website uses Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR. If you use this template, make sure to modify the URL in plausible.html."
+  }
+]

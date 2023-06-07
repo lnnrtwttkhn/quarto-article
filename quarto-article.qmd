@@ -1,0 +1,25 @@
+---
+title: "Quarto Article Template"
+subtitle: "A personal template for Quarto articles"
+# date:
+# date-modified:
+---
+
+## Edits
+
+### Necessary
+
+1. Edit the name of the R Project and `.Rproj` file
+1. Edit the article title and file name.
+1. Edit the URL for website analytics in [`plausible.html`](plausible.html)
+
+### Optional
+
+1. Edit the copyright
+1. Edit the license
+
+## Website Analytics
+
+This website uses [Plausible](https://plausible.io/) for website analytics.
+Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
+If you use this template, make sure to modify the URL in [`plausible.html`](plausible.html).

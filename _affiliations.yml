@@ -1,0 +1,28 @@
+affiliations:
+  - id: uhh-psych
+    name: "Institute of Psychology, University of Hamburg, Germany"
+    department: "Chair for Mechanisms of Learning and Change"
+    address: "Von-Melle-Park 5"
+    city: "Hamburg"
+    region: "Hamburg"
+    country: "Germany"
+    postal-code: "20149"
+    url: "https://www.psy.uni-hamburg.de/en.html"
+  - id: mpib
+    name: "Max Planck Research Group NeuroCode, Max Planck Institute for Human Development, Berlin, Germany"
+    department: "Max Planck Research Group NeuroCode"
+    address: "Lentzeallee 94"
+    city: "Berlin"
+    region: "Berlin"
+    country: "Germany"
+    postal-code: "14195"
+    url: "https://www.mpib-berlin.mpg.de/en"
+  - id: mps-ucl
+    name: "Max Planck UCL Centre for Computational Psychiatry and Ageing Research, Berlin, Germany"
+    # department: string
+    address: "Lentzeallee 94"
+    city: "Berlin"
+    region: "Berlin"
+    country: "Germany"
+    postal-code: "14195"
+    url: "https://www.mps-ucl-centre.mpg.de/"

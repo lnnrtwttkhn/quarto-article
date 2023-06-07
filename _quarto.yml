@@ -57,7 +57,7 @@ format:
     tbl-cap-location: margin
     page-layout: article
     # code:
-    code-fold: false
+    code-fold: show
     code-summary: "Show the code"
     code-overflow: wrap
     code-line-numbers: true
@@ -65,8 +65,9 @@ format:
     code-link: false
     code-annotations: true
     code-tools:
-      source: false
+      source: https://github.com/lnnrtwttkhn/quarto-article
       toggle: true
+      caption: "Code"
     highlight-style: monokai
     # execution:
     execute:

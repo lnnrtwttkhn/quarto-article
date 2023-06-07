@@ -3,6 +3,7 @@ title: "Quarto Article Template"
 subtitle: "A personal template for Quarto articles"
 # date:
 # date-modified:
+engine: knitr
 ---
 
 ## Edits
@@ -17,6 +18,18 @@ subtitle: "A personal template for Quarto articles"
 
 1. Edit the copyright
 1. Edit the license
+
+## Publish to GitHub Pages
+
+For details, see [this chapter in the Quarto documentation](https://quarto.org/docs/publishing/github-pages.html).
+
+```{bash}
+rm -r docs
+```
+
+```{bash}
+quarto publish gh-pages
+```
 
 ## Website Analytics
 

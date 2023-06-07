@@ -1,6 +1,13 @@
 project:
+  # for details on quarto websites, see https://quarto.org/docs/reference/projects/websites.html
+  # project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
+    browser: true
+    watch-inputs: true
+    navigate: true
 author:
 - id: wittkuhn
   # number: number

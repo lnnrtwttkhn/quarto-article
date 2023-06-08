@@ -8,7 +8,7 @@
     "LinkingTo"
   ],
   "r.version": null,
-  "snapshot.type": "all",
+  "snapshot.type": "implicit",
   "use.cache": true,
   "vcs.ignore.cellar": true,
   "vcs.ignore.library": true,

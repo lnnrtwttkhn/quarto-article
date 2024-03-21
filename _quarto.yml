@@ -76,7 +76,6 @@ format:
       - _affiliations.yml
       - _variables.yml
     # metadata
-    copyright: "Lennart Wittkuhn"
     license: "CC BY"
     # rendering:
     from: "markdown+emoji"

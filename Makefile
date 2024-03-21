@@ -11,7 +11,7 @@ render:
 	quarto render index.qmd
 	
 .PHONY: deploy
-deploy: clean
+deploy: clean images
 	quarto publish gh-pages
 
 .PHONY: images

@@ -2,7 +2,7 @@ project:
   # for details on quarto websites, see https://quarto.org/docs/reference/projects/websites.html
   # project:
   type: website
-  output-dir: docs
+  output-dir: _site
   preview:
     port: 4200
     browser: true

@@ -2,8 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-
 /.quarto/
 *.html
 *_files
-/docs/
+/_site/

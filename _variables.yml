@@ -1,0 +1,22 @@
+title: "Quarto Article"
+subtitle: "A personal template for Quarto articles"
+project-name: "quarto-article"
+source: "https://github.com/lnnrtwttkhn/{{< var project-name >}}"
+website: "https://lennartwittkuhn.com/{{< var project-name >}}"
+issues: "https://github.com/lnnrtwttkhn/{{< var project-name >}}/issues"
+# license-long: "[MIT](https://opensource.org/license/mit/)"
+# license-short: "[MIT](https://opensource.org/license/mit/)"
+# license-badge: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
+license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
+homepage: "https://lennartwittkuhn.com/"
+email: "lennart.wittkuhn@uni-hamburg.de"
+mailto: "mailto:{{< var email >}}"
+twitter: https://twitter.com/lnnrtwttkhn
+mastodon: https://fediscience.org/@lnnrtwttkhn
+github: https://github.com/lnnrtwttkhn
+linkedin: https://www.linkedin.com/in/lennart-wittkuhn/
+scholar: https://scholar.google.com/citations?user=GXvJB1kAAAAJ&hl=en
+orcid: 0000-0003-2966-6888
+orcid-link: "https://orcid.org/{{< var orcid >}}"

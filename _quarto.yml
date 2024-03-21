@@ -1,6 +1,4 @@
 project:
-  # for details on quarto websites, see https://quarto.org/docs/reference/projects/websites.html
-  # project:
   type: website
   output-dir: _site
   preview:
@@ -10,32 +8,20 @@ project:
     navigate: true
 author:
 - id: wittkuhn
-  # number: number
   name:
     given: Lennart
     family: Wittkuhn
-    literal: Lennart Wittkuhn
-    # dropping-particle: string
-    # non-dropping-particle: string
-  url: https://lennartwittkuhn.com/
-  email: lennart.wittkuhn@uni-hamburg.de
-  # fax: string
-  orcid: 0000-0003-2966-6888
-  # note: string
-  # acknowledgements: string
+    literal: Dr. Lennart Wittkuhn
+  url: "{{< var homepage >}}"
+  email: "{{< var email >}}"
+  orcid: "{{< var orcid >}}"
   attributes:
-    corresponding: boolean
-    # equal-contributor: boolean
-    # deceased: boolean
-  # metadata: object
+    corresponding: true
   affiliations:
     - ref: uhh-psych
     - ref: mpib
     - ref: mps-ucl
-abstract: "This is the abstract."
-abstract-title: "Abstract"
 format:
-  # see here for all html options: https://quarto.org/docs/reference/formats/html.html
   html:
     # format options:
     theme: [cosmo, custom.scss]
@@ -51,21 +37,23 @@ format:
     toc-expand: true
     # numbering:
     number-sections: false
+    number-depth: 1
     # layout:
     cap-location: margin
     fig-cap-location: margin
     tbl-cap-location: margin
     page-layout: article
+    title-block-style: default
     # code:
     code-fold: show
-    code-summary: "Show the code"
-    code-overflow: wrap
+    code-summary: "Code"
+    code-overflow: scroll
     code-line-numbers: true
     code-copy: true
     code-link: false
     code-annotations: true
     code-tools:
-      source: https://github.com/lnnrtwttkhn/quarto-article
+      source: "https://github.com/lnnrtwttkhn/quarto-article"
       toggle: true
       caption: "Code"
     highlight-style: monokai
@@ -76,10 +64,17 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     # references
-    # bibliography: bibliography/code/bibliography.bib
-    csl: "apa-6th-edition.csl"
+    bibliography: references.bib
+    csl: apa.csl
+    citations-hover: true
+    citation-location: document
     # language
     language: en
+    # includes:
+    include-after-body: plausible.html
+    metadata-files:
+      - _affiliations.yml
+      - _variables.yml
     # metadata
     copyright: "Lennart Wittkuhn"
     license: "CC BY"
@@ -87,8 +82,4 @@ format:
     from: "markdown+emoji"
     # website:
     search: false
-    # includes:
-    include-after-body: plausible.html
-    metadata-files:
-      - _affiliations.yml
-    
+    repo-actions: true

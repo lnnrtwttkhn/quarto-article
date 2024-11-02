@@ -12,9 +12,9 @@ author:
     given: Lennart
     family: Wittkuhn
     literal: Dr. Lennart Wittkuhn
-  url: "{{< var homepage >}}"
-  email: "{{< var email >}}"
-  orcid: "{{< var orcid >}}"
+  url: "{{< var project.homepage >}}"
+  email: "{{< var project.email >}}"
+  orcid: "{{< var project.orcid >}}"
   attributes:
     corresponding: true
   affiliations:

@@ -1,0 +1,4 @@
+format:
+  pdf:
+    # table of contents:
+    toc: false

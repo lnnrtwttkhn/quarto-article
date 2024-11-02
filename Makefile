@@ -7,7 +7,7 @@ preview:
 	quarto preview
 
 .PHONY: render
-render:
+render: clean images
 	quarto render index.qmd
 
 .PHONY: pdf

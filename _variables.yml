@@ -17,7 +17,6 @@ project:
   email: "lennart.wittkuhn@uni-hamburg.de"
   mailto: "mailto:{{< var project.email >}}"
   phone: "+49 (0)40 42838 5346"
-  mastodon: https://fediscience.org/@lnnrtwttkhn
   github: https://github.com/lnnrtwttkhn
   linkedin: https://www.linkedin.com/in/lennart-wittkuhn/
   scholar: https://scholar.google.com/citations?user=GXvJB1kAAAAJ&hl=en

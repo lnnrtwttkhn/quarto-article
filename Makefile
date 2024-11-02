@@ -9,7 +9,11 @@ preview:
 .PHONY: render
 render:
 	quarto render index.qmd
-	
+
+.PHONY: pdf
+pdf: clean images
+	quarto render --profile pdf
+
 .PHONY: deploy
 deploy: clean images
 	quarto publish gh-pages

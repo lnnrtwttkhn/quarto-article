@@ -2,3 +2,7 @@ format:
   pdf:
     # table of contents:
     toc: false
+    # includes:
+    include-in-header:
+      - text: |
+          \usepackage{style}

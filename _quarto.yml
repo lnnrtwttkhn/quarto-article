@@ -21,6 +21,36 @@ author:
     - ref: uhh-psych
     - ref: mpib
     - ref: mps-ucl
+
+# table of contents:
+toc-depth: 3
+toc-title: "Contents"
+# numbering:
+number-sections: false
+number-depth: 1
+# layout:
+fig-cap-location: bottom
+tbl-cap-location: top
+page-layout: article
+title-block-style: default
+# code:
+code-line-numbers: true
+code-annotations: true
+highlight-style: monokai
+# execution:
+execute:
+  eval: false
+# references
+bibliography: references.bib
+csl: apa.csl
+# language
+lang: en
+# includes:
+metadata-files:
+  - _affiliations.yml
+# rendering:
+from: "markdown+emoji"
+
 format:
   html:
     # format options:
@@ -31,54 +61,32 @@ format:
     email-obfuscation: none
     # table of contents:
     toc: true
-    toc-depth: 3
     toc-location: right
-    toc-title: "Contents"
     toc-expand: true
-    # numbering:
-    number-sections: false
-    number-depth: 1
     # layout:
-    cap-location: margin
-    fig-cap-location: margin
-    tbl-cap-location: margin
     page-layout: article
     title-block-style: default
     # code:
     code-fold: show
     code-summary: "Code"
     code-overflow: scroll
-    code-line-numbers: true
     code-copy: true
     code-link: false
-    code-annotations: true
     code-tools:
       source: "https://github.com/lnnrtwttkhn/quarto-article"
       toggle: true
       caption: "Code"
-    highlight-style: monokai
-    # execution:
-    execute:
-      eval: false
     # links:
     link-external-icon: false
     link-external-newwindow: true
-    # references
-    bibliography: references.bib
-    csl: apa.csl
+    # references:
     citations-hover: true
     citation-location: document
-    # language
-    language: en
     # includes:
     include-after-body: plausible.html
-    metadata-files:
-      - _affiliations.yml
-      - _variables.yml
     # metadata
     license: "CC BY"
-    # rendering:
-    from: "markdown+emoji"
     # website:
     search: false
     repo-actions: true
+    

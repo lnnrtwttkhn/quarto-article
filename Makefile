@@ -2,7 +2,7 @@ IMAGES_URL=https://cloud.uni-hamburg.de/s/MsqQbgRkswr2aFj/download
 IMAGES_ARCHIVE=images.zip
 IMAGES_DIR=images/
 TARGET_WORD := quarto-article
-REPLACEMENT_WORD := test-word
+REPLACEMENT_WORD := quarto-article
 FILES := ./_quarto.yml ./_variables.yml ./plausible.html ./README.md
 
 .PHONY: preview

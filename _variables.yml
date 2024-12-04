@@ -17,7 +17,7 @@ project:
   # doi-link: "https://doi.org/{{< var project.doi >}}"
   homepage: "https://lennartwittkuhn.com/"
   email: "lennart.wittkuhn@uni-hamburg.de"
-  mailto: "mailto:{{< var project.email >}}"
+  mailto: "mailto:lennart.wittkuhn@uni-hamburg.de"
   phone: "+49 (0)40 42838 5346"
   github: https://github.com/lnnrtwttkhn
   linkedin: https://www.linkedin.com/in/lennart-wittkuhn/

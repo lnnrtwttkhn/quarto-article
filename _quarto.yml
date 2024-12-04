@@ -53,6 +53,8 @@ from: "markdown+emoji"
 
 format:
   html:
+    title: "{{< var project.title >}}"
+    subtitle: "{{< var project.subtitle >}}"
     # format options:
     theme: [cosmo, custom.scss]
     anchor-sections: true

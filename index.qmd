@@ -1,6 +1,4 @@
 ---
-title: "{{< var project.title >}}"
-subtitle: "{{< var project.subtitle >}}"
 date: today
 engine: knitr
 # abstract: "This is the abstract."

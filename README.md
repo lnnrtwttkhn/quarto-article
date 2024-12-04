@@ -13,20 +13,15 @@ Just click the green **Use this template** button to get started.
 
 ### Setup
 
-- [ ] Edit information in `README.md`, `index.qmd` and `_variables.yml`
-- [ ] Rename `.Rproj` file
-- [ ] URL in `plausible.html`
+- [ ] replace `REPLACEMENT_WORD` in [`Makefile`](Makefile) and run `make replace`.
 - [ ] `IMAGES_URL` in `Makefile`
 - [ ] `title` in `_variables.yml`
 - [ ] `subtitle` in `_variables.yml`
-- [ ] `project-name` in `_variables.yml`
 - [ ] `license` in `_variables.yml`
+- [ ] update license information in `README.md` and `_variables.yml`
 - [ ] `doi` in `_variables.yml`
 - [ ] `date` in `index.qmd`
-- [ ] information in `README.md`
-- [ ] update badges in `README.md`
 - [ ] verify Quarto version in `.github/workflows/publish.yml`
-- [ ] update license information in `README.md` and `_variables.yml`
 
 ## License
 

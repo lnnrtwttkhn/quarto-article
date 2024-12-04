@@ -2,9 +2,11 @@ project:
   name: "quarto-article"
   title: "Quarto Article"
   subtitle: "A personal template for Quarto articles"
-  source: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
-  website: "https://lennartwittkuhn.com/{{< var project.name >}}"
-  issues: "https://github.com/lnnrtwttkhn/{{< var project.name >}}/issues"
+  author: "Dr. Lennart Wittkuhn"
+  date: 2025/01/01
+  source: "https://github.com/lnnrtwttkhn/quarto-article"
+  website: "https://lennartwittkuhn.com/quarto-article"
+  issues: "https://github.com/lnnrtwttkhn/quarto-article/issues"
   # license-long: "[MIT](https://opensource.org/license/mit/)"
   # license-short: "[MIT](https://opensource.org/license/mit/)"
   # license-badge: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
@@ -21,4 +23,4 @@ project:
   linkedin: https://www.linkedin.com/in/lennart-wittkuhn/
   scholar: https://scholar.google.com/citations?user=GXvJB1kAAAAJ&hl=en
   orcid: 0000-0003-2966-6888
-  orcid-link: "https://orcid.org/{{< var project.orcid >}}"
+  orcid-link: "https://orcid.org/0000-0003-2966-6888"

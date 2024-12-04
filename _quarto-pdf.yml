@@ -1,4 +1,15 @@
 format:
   pdf:
+    title: |
+      "{{< var project.title >}}"\newline{}
+      {{< var project.subtitle >}}\newline{}
+      {{< var project.author >}}
     # table of contents:
     toc: false
+    # references:
+    link-citations: true
+    link-bibliography: true
+    # includes
+    include-in-header:
+      - text: |
+          \usepackage{style}

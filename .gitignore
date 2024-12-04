@@ -7,3 +7,6 @@
 *_files
 /_site/
 /images/
+*.aux
+*.log
+*.tex

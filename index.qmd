@@ -4,3 +4,12 @@ engine: knitr
 # abstract: "This is the abstract."
 # abstract-title: "Abstract"
 ---
+
+::: {.callout-note appearance="simple"}
+This is a template for a Quarto article.
+An online version of this article is available at [{{< var project.website >}}]({{< var project.website >}}).
+<!-- A PDF version of this article is archived at [{{< var project.doi-link >}}]({{< var project.doi-link >}}). -->
+The source code of this article is available at [{{< var project.source >}}]({{< var project.source >}}).
+The contents of this article are made available under a [{{< var project.license-long >}}]({{< var project.license-long >}}) license.
+For questions, feedback, or any other comments, please open an issue at [{{< var project.issues >}}]({{< var project.issues >}}) or send an email to [{{< var project.email >}}]({{< var project.mailto >}}).
+:::

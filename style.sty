@@ -1,0 +1,73 @@
+% style.sty - Custom style to optimize space usage in LaTeX
+
+\ProvidesPackage{style}[2024/11/13 Optimized space-saving style]
+
+% Set overall document font size
+\renewcommand{\documentclass}[2][12pt]{\class{article}[#1]}
+
+% Adjust page margins to maximize space further
+\usepackage[a4paper, left=0.75in, right=0.75in, top=0.75in, bottom=0.75in]{geometry}
+
+% Reduce space between paragraphs
+\setlength{\parskip}{0.5em}  % Decrease vertical space between paragraphs
+
+% Reduce line spacing throughout the document
+\renewcommand{\baselinestretch}{1.0}  % Adjust line spacing to 1.0 (default 1.5)
+
+% Customize section headings to make them larger
+\usepackage{titlesec}
+\titleformat{\section}[runin]  % Section titles run into the text
+  {\normalfont\bfseries\LARGE}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{0.5ex plus .1ex minus .1ex}{0.5em}
+
+\titleformat{\subsection}[runin]  % Subsection titles run into the text
+  {\normalfont\bfseries\large}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0.5ex plus .1ex minus .1ex}{0.5em}
+
+% Reduce space after the title and section headings
+\setlength{\headsep}{0.5in}  % Title header space
+\setlength{\topskip}{0.5em}  % Distance from the top of the page
+
+% Optimize font usage with a compact font family and size
+\renewcommand{\familydefault}{\sfdefault}  % Use sans-serif as default
+\usepackage{lmodern}  % Use modern Latin font for better space efficiency
+
+% Control figure and table placement to save space
+\usepackage[font=small,labelfont=bf]{caption}  % Smaller captions, bold labels
+\setlength{\textfloatsep}{10pt}  % Reduce space between floats (figures/tables) and text
+
+% Optimize list spacing
+\usepackage{enumitem}
+\setlist{noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt}  % Reduce spacing in lists
+
+% Remove extra spaces in bibliography and references
+\usepackage{titlesec}
+\titleformat{\subsubsection}[runin]{\normalfont\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{0.2ex plus .1ex minus .1ex}{0.5em}
+
+% Hyperlinks style with smaller text and compact layout
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=false}
+
+% Set smaller footnotes and make them more compact
+\renewcommand{\footnotesize}{\scriptsize}
+
+% Make title smaller (without requiring external packages) and remove author/date
+\renewcommand{\maketitle}{%
+  \begin{center}%
+    \normalfont\large \textbf{\@title} % Smaller title size (\large)
+  \end{center}%
+  \vskip -1.5em  % Reduces space before and after the title
+}
+
+% Optionally, reduce space before and after the title
+\makeatletter
+\def\@maketitle{%
+  \begin{center}%
+    \normalfont\large \textbf{\@title} \par  % Smaller title size (\large)
+  \end{center}%
+  \vskip -1.5em  % Adjust vertical space before and after the title
+}
+\makeatother
+
+\endinput
